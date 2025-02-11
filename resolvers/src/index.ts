@@ -4,7 +4,7 @@ export class HandleResolver {
 	/**@param resolverUrl example: "https://public.api.bsky.app" */
 	constructor(resolverUrl: string, fetch?: typeof globalThis.fetch) {
 		this.resolverUrl = resolverUrl;
-		this.fetch = fetch ?? globalThis.fetch;
+		this.fetch = fetch ?? ((...p) => globalThis.fetch(...p));
 	}
 	async resolve(handle: string) {
 		try {
