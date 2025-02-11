@@ -1,0 +1,17 @@
+{
+	"name": "@tomo-x/resolvers",
+	"version": "0.0.1",
+	"description": "Lightweight handle and DID resolver for browsers and edge",
+	"main": "dist/index.js",
+	"files": ["dist"],
+	"scripts": {
+		"build": "tsc",
+		"prepublishOnly": "pnpm run build"
+	},
+	"keywords": ["atproto", "resolver", "browser", "edge"],
+	"author": "tomo-x",
+	"license": "MIT",
+	"devDependencies": {
+		"typescript": "^5.7.3"
+	}
+}
