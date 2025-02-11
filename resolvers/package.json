@@ -1,5 +1,5 @@
 {
-	"name": "@tomo-x/resolvers",
+	"name": "atproto-browser-resolvers",
 	"version": "0.0.1",
 	"description": "Lightweight handle and DID resolver for browsers and edge",
 	"main": "dist/index.js",
