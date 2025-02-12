@@ -1,6 +1,6 @@
 {
-  "name": "atproto-libs",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+	"name": "atproto-libs",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
 }

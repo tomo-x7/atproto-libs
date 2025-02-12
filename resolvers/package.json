@@ -1,7 +1,8 @@
 {
-	"name": "atproto-browser-resolvers",
+	"name": "@tomo-x/resolvers",
 	"version": "0.0.2",
-	"description": "Lightweight handle and DID resolver for browsers and edge",
+	"publishConfig": { "access": "public" },
+	"description": "Lightweight handle and DID resolver for browser and edge",
 	"main": "dist/index.js",
 	"files": ["dist"],
 	"scripts": {
